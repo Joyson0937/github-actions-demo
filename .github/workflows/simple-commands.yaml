@@ -10,7 +10,7 @@ jobs:
         run: echo "hello Joyson"
 
       - name: show date
-        run: date
+        run: date > joyson.txt
 
       - name: list files
         run: ls -la
