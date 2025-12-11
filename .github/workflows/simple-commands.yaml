@@ -8,7 +8,9 @@ jobs:
     steps:
       -  name: say echo
          run: echo "hello Joyson"
+
       -  name: show date
          run: date
+
       -  name: list files
          run: ls -la
