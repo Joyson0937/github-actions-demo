@@ -6,11 +6,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -  name: say echo
-         run: echo "hello Joyson"
+      - name: say echo
+        run: echo "hello Joyson"
 
-      -  name: show date
-         run: date
+      - name: show date
+        run: date
 
-      -  name: list files
-         run: ls -la
+      - name: list files
+        run: ls -la
